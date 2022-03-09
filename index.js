@@ -1,4 +1,4 @@
-const express = require("express"); //Importar modulo de Express
+const express = require("express");
 const cors = require("cors");
 
 const app = express();
@@ -85,8 +85,7 @@ app.use((request, response) => {
   });
 });
 
-//Este servidor va a estar escuchando en el puerto 3001
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server runnning on port ${PORT}`);
 });
