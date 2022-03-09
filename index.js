@@ -12,19 +12,19 @@ app.use(logger);
 let notes = [
   {
     id: 1,
-    content: "Me tengo que suscribir al canal de Youtube de @midudev",
+    content: "Note 1",
     date: "2022-05-15T17:30:31.098Z",
     important: true
   },
   {
     id: 2,
-    content: "Tengo que estudiar Node.JS",
+    content: "Note 2",
     date: "2022-07-15T17:30:31.098Z",
     important: false
   },
   {
     id: 3,
-    content: "Repasar React",
+    content: "Note 3",
     date: "2022-07-15T17:30:31.098Z",
     important: true
   }
